@@ -1,0 +1,26 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "Simple backend for collaborative editing",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "open-cli http://localhost:29596 && cross-env NODE_ENV=local PORT=29596 nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kenticomartinh@vs-ssh.visualstudio.com:v3/kenticomartinh/Playground/socket-server"
+  },
+  "author": "Kentico",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "cross-env": "7.0.2",
+    "ejs": "3.1.3",
+    "express": "4.17.1",
+    "nodemon": "2.0.4",
+    "open": "7.0.4",
+    "open-cli": "6.0.1",
+    "socket.io": "2.3.0"
+  }
+}
